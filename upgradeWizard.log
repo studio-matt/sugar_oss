@@ -1,0 +1,12 @@
+Tue, 19 Aug 2014 10:10:31 -0400 [UpgradeWizard] - setting session variables...
+Tue, 19 Aug 2014 10:10:31 -0400 [UpgradeWizard] - -----------------------------------------------------------------------------
+Tue, 19 Aug 2014 10:10:31 -0400 [UpgradeWizard] - Upgrade started. At start.php
+Tue, 19 Aug 2014 10:10:31 -0400 [UpgradeWizard] - at unlinkUWTempFiles()
+Tue, 19 Aug 2014 10:10:31 -0400 [UpgradeWizard] - finished!
+Tue, 19 Aug 2014 10:10:31 -0400 [UpgradeWizard] - resetting $_SESSION
+Tue, 19 Aug 2014 17:30:14 -0400 [UpgradeWizard] - setting session variables...
+Tue, 19 Aug 2014 17:30:14 -0400 [UpgradeWizard] - -----------------------------------------------------------------------------
+Tue, 19 Aug 2014 17:30:14 -0400 [UpgradeWizard] - Upgrade started. At start.php
+Tue, 19 Aug 2014 17:30:14 -0400 [UpgradeWizard] - at unlinkUWTempFiles()
+Tue, 19 Aug 2014 17:30:14 -0400 [UpgradeWizard] - finished!
+Tue, 19 Aug 2014 17:30:14 -0400 [UpgradeWizard] - resetting $_SESSION

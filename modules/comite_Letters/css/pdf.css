@@ -1,0 +1,212 @@
+
+form#letter {
+    display: none;
+}
+
+.pdf {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+.pdf p {
+    margin-bottom: 1em;
+}
+.pdf table,
+.pdf div {
+    font-size: 14px;
+}
+
+.pdf p.company {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+.pdf p.company img {
+    display: block;
+    margin: 0 auto 5px auto;
+}
+.pdf p.title {
+    display: block;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-top-color: #666;
+    border-left-color: #666;
+    background: #ffffbf;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.pdf p.date {
+    font-weight: bold;
+    border: none;
+}
+
+.pdf span.red {
+    color: red;
+}
+
+/* MED TABLE ---------------------------------------------------------------- */
+
+#medtable {
+}
+#medtable p.patient {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#medtable p.description {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+#medtable table {
+    font-size: 11px;
+    border-collapse: collapse;
+}
+#medtable table tr th {
+    border-bottom: 1px solid #333;
+    padding-top: 25px;
+    text-align: center;
+}
+#medtable table tr td {
+    border: 1px solid #333;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    white-space: nowrap;
+}
+#medtable table tr.supplement_header th {
+    border-bottom: 1px solid #000;
+}
+
+#medtable table tr th:nth-child(1),
+#medtable table tr td:nth-child(1) {
+    text-align: left;
+    white-space: normal;
+    width: 200px;
+}
+#medtable table tr th:nth-child(2),
+#medtable table tr th:nth-child(3),
+#medtable table tr th:nth-child(4),
+#medtable table tr td:nth-child(2),
+#medtable table tr td:nth-child(3),
+#medtable table tr td:nth-child(4) {
+    width: 50px;
+}
+#medtable table tr th:nth-child(5),
+#medtable table tr th:nth-child(6),
+#medtable table tr th:nth-child(7),
+#medtable table tr th:nth-child(8),
+#medtable table tr td:nth-child(5),
+#medtable table tr td:nth-child(6),
+#medtable table tr td:nth-child(7),
+#medtable table tr td:nth-child(8) {
+    width: 30px;
+}
+#medtable table tr th:nth-child(9),
+#medtable table tr th:nth-child(10),
+#medtable table tr td:nth-child(9),
+#medtable table tr td:nth-child(10) {
+    white-space: normal;
+    width: 84px;
+}
+/* BONE STUDY --------------------------------------------------------------- */
+
+#bonestudy {
+}
+#bonestudy ul.tests {
+    list-style: none;
+}
+#bonestudy ul.tests li {
+    list-style: none;
+    margin-bottom: 2px;
+}
+#bonestudy ul.tests li span.checkbox {
+    padding: 0 10px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    position: relative;
+}
+#bonestudy table.testing {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+#bonestudy table.testing td {
+    border: 2px solid #333;
+    text-align: center;
+    line-height: 1.1em;
+}
+#bonestudy table.testing td.blank {
+    border: none;
+}
+#bonestudy table.testing td.head {
+    width: 130px;
+    vertical-align: bottom;
+}
+#bonestudy table.testing td.head span.context {
+    font-size: 9px;
+}
+#bonestudy table.testing td.level {
+    text-align: left;
+    font-weight: bold;
+    width: 120px;
+    border: none;
+}
+#bonestudy table.testing td.value {
+    font-weight: bold;
+}
+#bonestudy table.testing td.value span.borderline {
+    color: #f00;
+}
+#bonestudy p.bottom-zero {
+    margin-bottom: 0;
+}
+
+/* EHE --------------------------------------------------------------- */
+body #ehe {
+    color: #000;
+}
+#ehe {
+    width: 620px;
+    margin-left: 40px;
+}
+#ehe h2 {
+    text-decoration: underline;
+    margin-top: 1em;
+    font-size: 14px;
+}
+#ehe h2.vo2_label {
+    text-decoration: none;
+    margin-top: 0;
+}
+#ehe .vo2 {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 0 1em 0;
+}
+#ehe .vo2 th,
+#ehe .vo2 td {
+    text-align: left;
+    border: 1px solid #333;
+    padding: 2px;
+}
+#ehe .signature {
+    display: inline-block;
+}
+#ehe .signature.first {
+    margin-right: 250px;
+}
+#ehe ol li {
+    margin-bottom: 1em;
+}
+#ehe ul li {
+    list-style-type: disc;
+    margin-bottom: 3px;
+}
+#ehe ul li li {
+    list-style-type: circle;
+}

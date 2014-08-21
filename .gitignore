@@ -1,0 +1,6 @@
+sugarcrm.log
+install.log
+log/*
+cache/*
+config.php
+upload/*
